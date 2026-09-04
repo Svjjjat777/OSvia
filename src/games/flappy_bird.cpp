@@ -5,7 +5,7 @@
 FlappyBird::FlappyBird()
     : Application("Flappy Bird", AppType::GAME),
       bird_y(8), bird_x(5), velocity(0), gravity(0.3),
-      score(0), game_width(40, game_height(15), game_over(false), frame_count(0) {}
+      score(0), game_width(40), game_height(15), game_over(false), frame_count(0) {}
 
 void FlappyBird::init() {
     is_running = true;
